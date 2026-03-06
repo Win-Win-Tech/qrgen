@@ -1,7 +1,7 @@
 import qrcode
 
 # Text to encode
-data = "QROE4QMQXBJ2"
+data = "QR16B5Z13KAW"
 
 # Generate QR code
 qr = qrcode.QRCode(
@@ -18,6 +18,6 @@ qr.make(fit=True)
 img = qr.make_image(fill_color="black", back_color="white")
 
 # Save the image
-img.save("Football Stage.png")
+img.save("Eighth Floor.png")
 
 print("QR code generated and saved as qrcode.png")
